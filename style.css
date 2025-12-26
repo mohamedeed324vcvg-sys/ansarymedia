@@ -1,0 +1,161 @@
+h1{
+    color:rgb(78, 46, 138);
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+
+.anh1{
+    color:gold;
+    box-shadow: 10px 20px 40px black;
+    border-radius:30px;
+    background-color: rgb(102, 143, 152);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+pre{
+    color: maroon;
+    font-size: 16px;
+    
+}
+
+div{
+    display: inline-table;
+    background-color:darkcyan;
+    color:lawngreen;
+    font-size: 25px;
+    box-shadow: 3px 3px 5px black;
+    
+}
+div a{
+    text-decoration:none;
+    color:rgb(75, 217, 35);
+    /* box-shadow: 5px 5px rgb(73, 70, 70) */
+}
+
+div a:hover{
+    background-color:rgb(13, 174, 156);
+    box-shadow: 5px 5px 5px rgb(79, 76, 78);
+    color: rgb(0, 255, 0)
+}
+
+
+header{
+    background-color:blue;
+    border-radius: 8px 8px;
+    height: 33px;
+    overflow: hidden;
+}
+
+footer{
+     background-color:blue;
+    border-radius: 40px;
+    height: 33px;
+    overflow: hidden;
+    padding: 20px;
+    align-items: center;
+    box-shadow:0px 4px 11px 
+    
+    
+}
+
+ul{
+    background-color:rgb(219, 226, 233);
+    box-shadow: 3px 4px 4px
+}
+li{
+    color:rgb(75, 75, 133);
+    font-size: 30px;
+    font-family:cursive;
+    text-align: start;
+    font-style:italic
+
+}
+
+hr{
+    border:none; background-color: rgb(10, 96, 26); height: 4px;
+    box-shadow: 3px 2px 5px  black
+}
+
+
+.co{
+    background-color: rgb(21, 21, 211);
+    color: green;
+    display: inline-table;
+    /* overflow: hidden; */
+    box-shadow: 2px 3px 3px black
+}
+
+.co a:hover{
+    background-color:rgb(43, 0, 255);
+    box-shadow: 4px 5px 1px rgb(72, 69, 69);
+}
+
+/* تنسيق بطاقات الأخبار */
+.news-card {
+    background-color: #fff;         /* خلفية بيضاء */
+    border-radius: 10px;            /* حواف دائرية */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل خفيف */
+    padding: 20px;                  /* مسافة داخل البطاقة */
+    margin: 15px;                    /* مسافة بين البطاقات */
+    transition: transform 0.3s, box-shadow 0.3s; /* تأثير عند المرور */
+    display: inline-block;           /* لتتراص بجانب بعضها */
+    width: 250px;                    /* عرض البطاقة */
+    vertical-align: top;
+    text-align: center;              /* محاذاة النص في الوسط */
+}
+
+.news-card:hover {
+    transform: translateY(-5px);    /* رفع البطاقة عند المرور */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* زيادة الظل */
+}
+
+.news-card a {
+    text-decoration: none;          /* إزالة الخط تحت الرابط */
+    color: #333;                    /* لون النص */
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.news-card img {
+    width: 100%;                    /* عرض الصورة كامل البطاقة */
+    border-radius: 8px;             /* حواف الصورة */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.video-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    text-align: center;
+}
+
+.video-text {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #fdfafa;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.audio{
+    width: 300px;
+    accent-color: #00b894
+}
+
+.audio-text{
+margin-top: 6px;
+    font-size: 16px;
+    color: #501616;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
